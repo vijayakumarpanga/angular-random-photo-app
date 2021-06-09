@@ -1,1 +1,7 @@
-<p>photo works!</p>
+
+<div class="container">
+    <div>
+    <button (click)="searchPhoto()"> Search</button>
+    </div>
+    <img *ngIf="urls" src = {{urls.regular}}/>
+</div>
